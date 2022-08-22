@@ -1,0 +1,213 @@
+/*Div contendo todos os elementos*/
+.tudo{
+    width: 100%;
+    height: 700px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding-top: 5px;
+    position: relative;
+    text-align: center;
+    background-color: #ffffff;
+  }
+
+/*Cabecalho*/
+  #cabecalho{
+    width: 98%;
+    margin-right: 1%;
+    margin-left: 1%;
+    height: 80px;
+    margin-top: 5px;
+    padding-top: 5px;
+    background-color: #141a24;
+    color: white;
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+  }
+
+/*Corpo*/
+  #corpo{
+    width: 98%;
+    height: 70%;
+    /*height: 465px;*/
+    margin-top: 5px;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #C9DAEA;
+    padding-top: 5px;
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+  
+  }
+/*Dentro do corpo*/
+  #cabecalhoCorpo{
+    height: 7%;
+    width: 98%;
+    right: 1%;
+    background-color: #135079;
+    color: white;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+  }
+  
+/*Rodape*/
+  
+  #rodape{
+    width: 98%;
+    margin-right: 1%;
+    margin-left: 1%;
+    height: 12%;
+    margin-top: 10px;
+    background-color: #141a24;
+    color: white;
+    bottom: 5px;
+    position: relative;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+  }
+/*Dentro do rodape*/
+  .contatos{
+    width: 5px;
+    height: 5px;
+    background-color: rgb(110, 110, 110);
+    margin-right: 5px;
+    padding-left: 5px;
+    position: absolute;
+    right: 0;
+    bottom: 3px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+  }
+
+ #nome{
+    position: absolute;
+    bottom: 5px;
+ }
+
+ #caixaDireita{
+    background-color: #C9DAEA;
+    width: 48%;
+    height: 90%;
+    right: 1%;
+    top: 9%;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;  
+ }
+ #caixaDireita p{
+  margin-top: 1px;
+ }
+ #caixaEsquerda p{
+  margin-top: 1px;
+  text-align: left;
+ }
+ #caixaEsquerda{
+    background-color: #C9DAEA;
+    width: 48%;
+    height: 90%;
+    left: 1%;
+    top: 9%;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+ }
+ .foto
+ {
+    width: 97.5%;
+    height: 67%;
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 1%;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+    border-radius: 5px;  
+ }
+ img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+ }
+ .rodapeCaixa{
+    width: 97.5%;
+    height: 31%;
+    position: absolute;
+    bottom: 0%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+ }
+ #btn-git{
+  width: 98%;
+  height: 30%;
+  left: 1%;
+  top: 1%;
+  color: white;
+  font-weight: bold;
+  background-color: #8a2be2;
+  position: absolute;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+ }
+ #btn-linkedin{
+  width: 98%;
+  height: 30%;
+  left: 1%;
+  bottom: 37%;
+  position: absolute;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  font-weight: bold;
+  }
+  #dropdownBoxesquerdo
+  {
+    position: absolute;
+    bottom: 5%;
+    width: 98%;
+    height: 30%;
+    left: 1%;
+    background-color: black;
+    border-radius: 5px;
+  }
+  .dropdown{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+  }
+  .dropdown span{
+    top: 20%;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  #dropdownApresentacao{
+    display: none;
+    position: absolute;
+    background-color: #C9DAEA;
+    min-width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .dropdown:hover #dropdownApresentacao{
+    display: block;
+  }
